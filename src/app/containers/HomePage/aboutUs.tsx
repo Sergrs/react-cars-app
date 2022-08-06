@@ -11,7 +11,7 @@ const AboutUsContainer = styled.div`
         flex
         flex-wrap
         items-center
-        2xl:justify-center
+        justify-center
         py-4
         px-7
         md:px-0
@@ -22,7 +22,7 @@ const AboutUsContainer = styled.div`
 const CarContainer = styled.div`
   width: auto;
   height: 15em;
-  margin-left: -30px;
+  margin-left: -50px;
 
   img {
     width: auto;
@@ -45,7 +45,7 @@ const CarContainer = styled.div`
 
 const InfoContainer = styled.div`
   ${tw`
-        w-1/2
+        md:w-1/2
         flex
         flex-col
         md:ml-6

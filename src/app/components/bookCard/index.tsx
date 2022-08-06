@@ -92,7 +92,7 @@ const DateCalendar = styled(Calendar)`
     top: 1.5em;
     left: -2em;
   }
-` as any
+` as any;
 
 const BookCard = () => {
   const [startDate, setStartDate] = useState<Date>(new Date());
@@ -138,7 +138,11 @@ const BookCard = () => {
           />
         </SmallIcon>
         {isReturnCalendarOpen && (
-          <DateCalendar offset value={returntDate} onChange={setReturnDate as any} />
+          <DateCalendar
+            offset
+            value={returntDate}
+            onChange={setReturnDate as any}
+          />
         )}
       </ItemContainer>
       <Marginer direction="horizontal" margin="2em" />
